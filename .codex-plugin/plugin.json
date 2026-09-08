@@ -1,0 +1,43 @@
+{
+  "name": "ios",
+  "version": "0.1.2",
+  "description": "Engineer modern Apple-platform software with current SDK evidence, typed runtime contracts, digital validation, and production-aware native delivery.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/ios",
+  "repository": "https://github.com/PedroAVJ/ios",
+  "license": "MIT",
+  "keywords": [
+    "ios",
+    "swift",
+    "xcode",
+    "app-intents",
+    "avfoundation",
+    "testing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "iOS",
+    "shortDescription": "Build safer modern Apple-platform code",
+    "longDescription": "Choose current Apple APIs from installed SDK evidence, turn framework failures into exhaustive product states, handle App Intent and audio lifecycle correctly, prove error routes digitally, and ship native changes through the right binary path.",
+    "developerName": "PedroAVJ",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://developer.apple.com/ios/",
+    "defaultPrompt": [
+      "Review this iOS code for lossy runtime APIs",
+      "Implement this Apple-platform feature with typed failures",
+      "Build and digitally validate this native iOS fix"
+    ],
+    "brandColor": "#147EFB",
+    "composerIcon": "./assets/ios-plugin-icon.svg",
+    "logo": "./assets/ios-plugin-icon.svg",
+    "screenshots": []
+  }
+}

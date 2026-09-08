@@ -1,0 +1,4 @@
+interface:
+  display_name: "iOS Development"
+  short_description: "Build safer modern Apple-platform code"
+  default_prompt: "Use current Apple SDK evidence, typed framework failures, and digital tests to handle this iOS engineering task."

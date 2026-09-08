@@ -1,0 +1,21 @@
+{
+  "name": "ios",
+  "version": "0.1.2",
+  "description": "Engineer modern Apple-platform software with current SDK evidence, typed runtime contracts, digital validation, and production-aware native delivery.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/ios",
+  "repository": "https://github.com/PedroAVJ/ios",
+  "license": "MIT",
+  "keywords": [
+    "ios",
+    "swift",
+    "xcode",
+    "app-intents",
+    "avfoundation",
+    "testing"
+  ],
+  "skills": "./skills/"
+}
