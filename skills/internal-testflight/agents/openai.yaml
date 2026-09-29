@@ -1,0 +1,4 @@
+interface:
+  display_name: "Internal TestFlight"
+  short_description: "Build, upload, and verify internal iPhone betas"
+  default_prompt: "Deliver this app to internal TestFlight testers and verify it is available."

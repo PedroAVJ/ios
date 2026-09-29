@@ -1,6 +1,6 @@
 {
   "name": "ios",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Engineer modern Apple-platform software with current SDK evidence, typed runtime contracts, digital validation, and production-aware native delivery.",
   "author": {
     "name": "PedroAVJ",
@@ -15,7 +15,8 @@
     "xcode",
     "app-intents",
     "avfoundation",
-    "testing"
+    "testing",
+    "testflight"
   ],
   "skills": "./skills/",
   "interface": {
@@ -33,7 +34,8 @@
     "defaultPrompt": [
       "Review this iOS code for lossy runtime APIs",
       "Implement this Apple-platform feature with typed failures",
-      "Build and digitally validate this native iOS fix"
+      "Build and digitally validate this native iOS fix",
+      "Deliver this app to internal TestFlight testers and verify availability"
     ],
     "brandColor": "#147EFB",
     "composerIcon": "./assets/ios-plugin-icon.svg",

@@ -1,6 +1,6 @@
 {
   "name": "@pedroavj/ios",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "private": true,
   "description": "Engineer modern Apple-platform software with current SDK evidence, typed runtime contracts, digital validation, and production-aware native delivery.",
   "license": "MIT",

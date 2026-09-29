@@ -9,13 +9,13 @@ async function text(path) {
   return readFile(join(root, path), "utf8");
 }
 
-test("Codex and Claude publish one synchronized private plugin", async () => {
+test("Codex and Claude publish one synchronized plugin", async () => {
   const codex = JSON.parse(await text(".codex-plugin/plugin.json"));
   const claude = JSON.parse(await text(".claude-plugin/plugin.json"));
   const packageJSON = JSON.parse(await text("package.json"));
 
   assert.equal(codex.name, "ios");
-  assert.equal(codex.version, "0.1.2");
+  assert.equal(codex.version, "0.2.0");
   assert.equal(claude.name, codex.name);
   assert.equal(claude.version, codex.version);
   assert.equal(packageJSON.version, codex.version);
@@ -121,4 +121,16 @@ test("the icon is original local artwork with recorded provenance", async () => 
   assert.match(icon, /<path/);
   assert.match(sources, /original vector artwork/);
   assert.match(sources, /No Apple glyph/);
+});
+
+test("internal TestFlight delivery reports only observed Apple and tester states", async () => {
+  const skill = await text("skills/internal-testflight/SKILL.md");
+  const ios = await text("skills/ios-development/SKILL.md");
+
+  assert.match(skill, /^---\nname: internal-testflight\n/);
+  assert.match(skill, /TestFlight Internal Only/);
+  assert.match(skill, /upload-success response alone is not TestFlight availability/);
+  assert.match(skill, /do not silently switch to external testing/);
+  assert.match(skill, /Never accept agreements on the user's behalf/);
+  assert.match(ios, /ios:internal-testflight/);
 });

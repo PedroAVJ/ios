@@ -111,3 +111,4 @@ the native fingerprint and route users to a new signed binary when required;
 an OTA update cannot replace native Swift. Keep source merge, deployment,
 binary upload, Apple processing, and end-user acceptance as distinct states.
 Do not require or operate a physical device unless the user explicitly asks.
+For internal TestFlight delivery, follow `ios:internal-testflight`.
